@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}      
+body{
+    margin: 150px;
+    background-image: url(image/wp2757861.webp);
+    background-size: 100%;
+
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-image: url(image/E8mi.gif);
+
+}
+.logo{
+   font-family:'Rubik', sans-serif;
+   font-size: 30px;
+   color:#065377;
+}
+.logo span{
+    color:#b3cff8;
+}
+
+nav{
+     border: solid#065377;
+     border-radius: 100px;
+     background-color:#065377;
+    
+}
+
+nav :hover{
+    color:#fdfdfd;
+}
+
+a{
+    color:#b3cff8;
+    text-decoration: none;
+}
+.user i, h4{
+     display: inline; 
+    color: #b3cff8;
+}
+.user i, h4:hover{
+    color: #fdfdfd;
+}
+
+
+section .sign {
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px;
+    
+}
+
+.sign .btn{
+    border: 12px;
+    padding:  10px 200px;
+    font-size: 1rem;
+    text-align: center;
+    color: #b3cff8;
+    text-shadow: 1px 1px 1px #0e1b46;
+    border-radius: 5px;
+    background-color:#065377;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));  
+}
+.sign .btn:hover {
+    color: #fdfdfd;
+}
+.sign-up h3 {
+   color: aliceblue;
+   margin: 10px;
+   padding-left: 30px;
+ }
+
+ .sign-up #userE ,#userP{
+   margin: 0px;
+   padding: 0px;
+ }
+ @media screen and (max-width:12px){
+    body{
+        margin: 150px;
+        background-image: url(image/wp2757861.webp);
+        background-size: 100%;
+    
+    }
+    
+ }

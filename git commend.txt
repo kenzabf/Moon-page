@@ -1,0 +1,37 @@
+
+user@DESKTOP-688I3EH MINGW64 ~/OneDrive/Bureau/calcule
+$ git init
+Initialized empty Git repository in C:/Users/user/OneDrive/Bureau/calcule/.git/
+
+user@DESKTOP-688I3EH MINGW64 ~/OneDrive/Bureau/calcule (master)
+$ git remote add origin https://github.com/kenzabf/calcul.git
+
+user@DESKTOP-688I3EH MINGW64 ~/OneDrive/Bureau/calcule (master)
+$ git add .
+
+user@DESKTOP-688I3EH MINGW64 ~/OneDrive/Bureau/calcule (master)
+$ git commit -m "second commit"
+[master (root-commit) 6573493] second commit
+ 2 files changed, 110 insertions(+)
+ create mode 100644 App.dev
+ create mode 100644 main.c
+
+user@DESKTOP-688I3EH MINGW64 ~/OneDrive/Bureau/calcule (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.03 KiB | 526.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kenzabf/calcul.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+user@DESKTOP-688I3EH MINGW64 ~/OneDrive/Bureau/calcule (master)
+$ git log
+commit 657349367d23760cfbbc055ae4ff99b6405ae743 (HEAD -> master, origin/master)
+Author: kenzabf <boufarakenza@gmail.com>
+Date:   Fri Aug 11 15:42:39 2023 +0200
+
+    second commit
